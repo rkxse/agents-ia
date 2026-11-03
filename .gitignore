@@ -1,0 +1,5 @@
+# État du runner, demandes du panel, historique des passages (données d'exécution)
+data/
+node_modules/
+*.log
+*.tmp

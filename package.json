@@ -1,0 +1,14 @@
+{
+  "name": "agents-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Panel web pour faire travailler des agents IA (Claude Code) sur tes projets : runner, agent patron, fil des agents, ordinateurs connectés",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "runner": "node runner.js",
+    "harness": "node harness.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "license": "MIT"
+}

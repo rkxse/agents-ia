@@ -1,0 +1,13 @@
+{
+  "name": "Projet d'exemple",
+  "description": "Copie ce dossier dans projects/<id>/ et remplace dir par le dossier git de ton projet (ou ajoute le projet depuis le panel).",
+  "dir": "../exemple-projet",
+  "envFile": ".env",
+  "agentsDir": "agents-ia",
+  "dataDir": "agents-ia/data",
+  "testCmd": "npm test",
+  "restartCmd": null,
+  "pm2Process": null,
+  "allowed": "^src/|^test/|^lib/",
+  "protected": null
+}
